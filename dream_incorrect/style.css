@@ -1019,13 +1019,7 @@ button {
 
 @media all and (min--moz-device-pixel-ratio:0) { 
 	body {
-		 color: orange;
-	}   
-}
-
-@media screen and (min-width:0\0) {
-    body {
-		 color: white;
+		 color: red;
 	}   
 }
 
@@ -1035,4 +1029,12 @@ button {
     body {
 		 color: blue;
 	}
+}
+
+
+@supports (-webkit-marquee-repetition:infinite) and (object-fit:fill) {
+	body {
+		 color: white;
+	}   
+
 }
