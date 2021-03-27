@@ -1019,21 +1019,233 @@ button {
 
 /*Firefox*/
 @media all and (min--moz-device-pixel-ratio:0) { 
-	body {
-		 color: red;
-	}   
+	.home-search > span, .home-search > ul {
+		padding-left: 50px;
+	}
+	.home-search__btn:hover,
+	.user-list > a:nth-child(2):hover {
+   		background-color: #222;
+   	}
+   	.service-box {
+   		box-shadow: none;
+   	}
+   	.service-box:hover {
+   		cursor: default;
+   	}
+   	.weekly-features > strong {
+   		font-size: 32px;
+   	}
+	.weekly-address > span {
+	    color: inherit;
+	}
+	.button-section {
+		padding: 20px 80px 20px 30px;
+	}
+	.property-img {
+		width: 90%;
+	}
+	.property-img::after {
+		width: 160px;
+		height: 50px;
+	}
+	.community-left-btn-wrap>button {
+	    background-position: 80% 50%;
+	}
+	.community-author > img {
+	    width: 100px;
+	    height: 100px;
+	}
+	.community-author-btn-wrap > button {
+		border-bottom-color: #003458;
+	}
+	.article-name-wrap > a {
+		margin-bottom: 10px;
+	}
+	.contacts-right::before {
+		right: 40px;
+	}
+	.contacts-form-wrap {
+		padding: 40px 30px;
+	}
+	.contacts-form-wrap > b {
+		color: #003458;
+	}
+	.contacts-form-wrap > b {
+		letter-spacing: 0;
+		font-size: 26px;
+	}
+	.contacts-form > input, 
+	.contacts-form > textarea {
+		padding: 15px 20px;
+	}
+	.contacts-form > input::-moz-placeholder, 
+	.contacts-form > textarea::-moz-placeholder {
+		font-family: serif;
+	}
+	.contacts-form > textarea {
+		padding: 5px;
+	}
+	.contacts-form > button {
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.contacts-left > .slogan-section {
+		margin-bottom: 40px;
+	}
+	.contacts-list li {
+		color: #fff;
+	}
+	.contacts-social > li {
+		margin-right: 10px;
+	}
 }
 
 /*Edge and Chrome*/
 @supports (not (-webkit-hyphens:none)) and (not (-moz-appearance:none)) { 
-    body {
-		 color: blue;
+	.nav-main > li {
+		font-size: 25px;
+	}
+	.home-search > span, .home-search > ul {
+		width: 280px;
+	}
+	#service-section {
+   		background: #fff;
+   	}
+   	.service-box {
+   		padding-left: 60px;
+   	}
+   	.service-box::after {
+   		width: 30px;
+   		height: 30px;
+   		background-size: 30px 30px;
+   	}
+   	.weekly-list > li {
+   		margin-top: 90px;
+   	}
+   	.weekly-list > li:first-child {
+   		margin-top: 65px;
+   	}
+   	.weekly-address > span {
+	    color: inherit;
+	}
+	.property-img {
+		width: 90%;
+	}
+	.property-img::after {
+		width: 160px;
+		height: 50px;
+	}
+	#community-section .title-section-wrap h2 {
+		font-weight: 400;
+	}
+	.community-author > img {
+	    margin-right: 10px;
+	}
+	.community-author-btn-wrap > button {
+		width: 30px;
+		border-bottom-width: 3px;
+	}
+	.community-author-btn-wrap > button {
+		border-bottom-color: #003458;
+	}
+	.article > img {
+		border-radius: 6px;
+	}
+	.blog-author-main {
+		padding-left: 10px;
+	}
+	.contacts-form-wrap {
+		padding: 40px 30px;
+	}
+	.contacts-form-wrap > b {
+		color: #003458;
+	}
+	.contacts-form-wrap > b {
+		letter-spacing: 0;
+		font-size: 26px;
+	}
+	.contacts-form > input, 
+	.contacts-form > textarea {
+		padding: 15px 20px;
+	}
+	.contacts-form > input {
+		font-family: monospace;
+	}
+	.contacts-left > .slogan-section {
+		margin-bottom: 40px;
 	}
 }
 
 /*Safari*/
 @supports (-webkit-marquee-repetition:infinite) and (object-fit:fill) {
-	body {
-		 color: white;
-	}   
+	.home-search > span, .home-search > ul {
+		width: 280px;
+	}
+	.home-slider-btn-wrap {
+   		width: 150px;
+   		height: 60px;
+   	}
+   	.service-box:hover {
+   		background-color: #025b99;
+   	}
+   	.weekly-list > li {
+   		margin-top: 90px;
+   	}
+   	.weekly-list > li:first-child {
+   		margin-top: 65px;
+   	}
+   	.weekly-address > h3 {
+	    font-family: serif;
+	}
+	.button-section {
+		border-radius: 8px;
+	}
+	.property-wrap {
+		overflow: hidden;
+	}
+	.community-right::before {
+	    width: 100px;
+	    height: 80px;
+	    background-size: 100% 100%;
+	}
+	.community-author > img {
+	    margin-right: 10px;
+	}
+	#blog-section .slogan-section {
+		color: #003458;
+		font-weight: 700;
+	}
+	.blog-author-main {
+		padding-left: 10px;
+	}
+	#contacts::before {
+		display: none;
+	}
+	.contacts-form-wrap > b {
+		color: #003458;
+	}
+	.contacts-form-wrap > b {
+		letter-spacing: 0;
+		font-size: 26px;
+	}
+	.contacts-form > input, 
+	.contacts-form > textarea {
+		padding: 15px 20px;
+	}
+	.contacts-form > input {
+		font-family: monospace;
+	}
+	.contacts-form > input {
+		font-family: monospace;
+	}
+	.contacts-form > textarea {
+		padding: 5px;
+	}
+	.contacts-left > .slogan-section {
+		margin-bottom: 40px;
+	}
+	.contacts-list li {
+		color: #fff;
+	}
 }
