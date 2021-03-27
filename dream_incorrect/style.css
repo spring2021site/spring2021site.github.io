@@ -1019,11 +1019,9 @@ button {
 
 @media all and (min--moz-device-pixel-ratio:0) { 
 	body {
-		 color: orange;
+		 color: red;
 	}   
 }
-
-
 
 @media screen and (min-width:0\0) {
     body {
@@ -1032,8 +1030,8 @@ button {
 }
 
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	body {
+@supports (-ms-ime-align:auto) {
+    body {
 		 color: blue;
-	}  
+	}
 }
