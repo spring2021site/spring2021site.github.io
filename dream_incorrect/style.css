@@ -1019,7 +1019,7 @@ button {
 
 @media all and (min--moz-device-pixel-ratio:0) { 
 	body {
-		 color: red;
+		 color: orange;
 	}   
 }
 
@@ -1036,5 +1036,11 @@ button {
 	body {
 		 color: white;
 	}   
+}
+
+@supports (-webkit-appearance:none) and (font-variant-caps:normal) and (not (-ms-accelerator:true)) and (not (overflow:-webkit-marquee)) and (not (-moz-appearance:none)) { 
+	body {
+		 color: yellow;
+	}
 
 }
