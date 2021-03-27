@@ -1019,7 +1019,7 @@ button {
 
 @media all and (min--moz-device-pixel-ratio:0) { 
 	body {
-		 color: red;
+		 color: orange;
 	}   
 }
 
@@ -1030,7 +1030,8 @@ button {
 }
 
 
-@supports (-ms-ime-align:auto) {
+@supports (not (-webkit-hyphens:none)) and (not (-moz-appearance:none)) { 
+
     body {
 		 color: blue;
 	}
