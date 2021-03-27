@@ -1171,9 +1171,6 @@ button {
 /*Safari*/
 @media not all and (min-resolution:.001dpcm) { 
 	@supports (-webkit-appearance:none) and (stroke-color:transparent) {
-		body {
-			color: #fff;
-		}
 		.home-search > span, .home-search > ul {
 			width: 280px;
 		}
