@@ -1070,10 +1070,6 @@ button {
 	.contacts-form-wrap > b {
 		color: #003458;
 	}
-	.contacts-form-wrap > b {
-		letter-spacing: 0;
-		font-size: 26px;
-	}
 	.contacts-form > input, 
 	.contacts-form > textarea {
 		padding: 15px 20px;
@@ -1085,19 +1081,11 @@ button {
 	.contacts-form > textarea {
 		padding: 5px;
 	}
-	.contacts-form > button {
-		display: block;
-		width: 80%;
-		margin: 0 auto;
-	}
-	.contacts-left > .slogan-section {
-		margin-bottom: 40px;
-	}
 	.contacts-list li {
 		color: #fff;
 	}
 	.contacts-social > li {
-		margin-right: 10px;
+	    margin-right: 10px;
 	}
 }
 
@@ -1175,10 +1163,16 @@ button {
 	.contacts-left > .slogan-section {
 		margin-bottom: 40px;
 	}
+	.contacts-social > li {
+	    margin-right: 10px;
+	}
 }
 
 /*Safari*/
 @supports (-webkit-marquee-repetition:infinite) and (object-fit:fill) {
+	body {
+		color: #fff;
+	}
 	.home-search > span, .home-search > ul {
 		width: 280px;
 	}
