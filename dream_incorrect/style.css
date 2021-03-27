@@ -1017,30 +1017,23 @@ button {
 }
 /*bugs*/
 
+/*Firefox*/
 @media all and (min--moz-device-pixel-ratio:0) { 
 	body {
-		 color: orange;
+		 color: red;
 	}   
 }
 
-
+/*Edge and Chrome*/
 @supports (not (-webkit-hyphens:none)) and (not (-moz-appearance:none)) { 
-
     body {
 		 color: blue;
 	}
 }
 
-
+/*Safari*/
 @supports (-webkit-marquee-repetition:infinite) and (object-fit:fill) {
 	body {
 		 color: white;
 	}   
-}
-
-@supports (-webkit-appearance:none) and (font-variant-caps:normal) and (not (-ms-accelerator:true)) and (not (overflow:-webkit-marquee)) and (not (-moz-appearance:none)) { 
-	body {
-		 color: yellow;
-	}
-
 }
