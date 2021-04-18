@@ -105,7 +105,7 @@ button {
 	color: #333;
 }
 .user-list>a:nth-child(2) {
-	padding: 10px 40px 12px;
+	padding: 18px 40px;
 	color: #fff;
 	background-color: #003458;
 	transition: .4s;
