@@ -472,7 +472,7 @@ button {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	margin: 40px 0;
+	margin: 40px 0 72px;
 }
 .property-feedback-wrap>strong {
 	line-height: 56px;
