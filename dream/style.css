@@ -436,6 +436,7 @@ button {
 	font-weight: 800;
 	line-height: 24px;
 	text-decoration-line: underline;
+	text-transform: uppercase;
 	transition: .4s;
 }
 .weekly-features>a:hover {
