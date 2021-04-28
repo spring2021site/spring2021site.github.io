@@ -662,6 +662,9 @@ button {
 #blog-section {
 	padding-bottom: 120px;
 }
+#blog-section .slogan-section {
+	line-height: 56px;
+}
 .blog-wrap {
 	display: flex;
 	justify-content: space-between;
