@@ -504,6 +504,8 @@ button {
 .button-section:hover::after {
 	background: url('img/arrow-right_hover2.svg') no-repeat;
 }
+.property-feedback-wrap .button-section {
+	font-family: 'Metropolis';
 .property-wrap {
 	display: flex;
 	overflow-x: auto;
