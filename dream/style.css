@@ -652,6 +652,9 @@ button {
 .community-author-btn-wrap>button {
 	width: 35px;
 	height: 16px;
+	border-bottom: 4px solid #E0E0E0;
+}
+.community-author-btn-wrap>button:first-child {
 	border-bottom: 4px solid #82CDE5;
 }
 
